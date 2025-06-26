@@ -1,0 +1,119 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0f0f0f, #004d00);
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden; /* Prevent scrolling */
+    color: #00ff00;
+}
+.container {
+    width: 100%;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.85);
+    border-radius: 15px;
+    box-shadow: 0 0 20px 4px #00ff00;
+    border: 1px solid #00ff00;
+    padding: 40px 50px;
+    color: #00ff00;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 3rem;
+    text-shadow: 0 0 10px #00ff00;
+    font-family: 'Orbitron', sans-serif;
+}
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+input[type="tel"] {
+    width: 80%;
+    padding: 14px 18px;
+    border-radius: 10px;
+    border: 1px solid #00ff00;
+    background: rgba(0, 0, 0, 0.7);
+    color: #00ff00;
+    font-size: 1.1rem;
+    box-shadow: 0 0 10px #00ff00;
+    transition: all 0.3s ease;
+    font-family: 'Orbitron', sans-serif;
+}
+input[type="text"]::placeholder,
+input[type="password"]::placeholder,
+input[type="email"]::placeholder,
+input[type="date"]::placeholder,
+input[type="tel"]::placeholder {
+    color: #00cc00;
+    font-style: italic;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+input[type="tel"]:focus {
+    outline: none;
+    background: rgba(0, 0, 0, 0.9);
+    box-shadow: 0 0 20px 4px #00ff00;
+    color: #00ff00;
+}
+.form-group {
+    flex: 1 0 100%;
+    display: flex;
+    flex-direction: column;
+}
+.form-group-full {
+    flex: 1 0 100%;
+}
+.submit-btn {
+    flex: 1 0 auto;
+    padding: 12px 24px;
+    background: #000;
+    border: 2px solid #00ff00;
+    color: #00ff00;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 15px #00ff00;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+.submit-btn:hover {
+    background: #00ff00;
+    color: #000;
+    box-shadow: 0 0 30px 8px #00ff00;
+}
+.result {
+    margin-top: 25px;
+    padding: 20px;
+    background-color: rgba(0, 255, 0, 0.15);
+    border: 1px solid #00ff00;
+    border-radius: 15px;
+    color: #00cc00;
+    font-size: 16px;
+    box-shadow: 0 0 15px #00ff00;
+    font-family: 'Orbitron', sans-serif;
+}
+.error {
+    margin-top: 25px;
+    padding: 20px;
+    background-color: rgba(255, 0, 0, 0.25);
+    border: 1px solid #ff0000;
+    border-radius: 15px;
+    color: #ff4444;
+    font-size: 16px;
+    box-shadow: 0 0 15px #ff0000;
+    font-family: 'Orbitron', sans-serif;
+}

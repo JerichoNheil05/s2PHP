@@ -1,0 +1,25 @@
+1. What are Super Global Variables?  
+Built-in PHP variables always accessible, used to get form data, server info, sessions, cookies, etc. Examples: $_GET, $_POST, $_SESSION, $_COOKIE, $_REQUEST, $_SERVER, $_FILES.
+
+2. Differentiate $_GET, $_POST, and $_REQUEST  
+- $_GET: Gets data from URL parameters; visible and size-limited.  
+- $_POST: Gets data from request body; hidden and can handle more data.  
+- $_REQUEST: Combines $_GET, $_POST, and $_COOKIE; may cause ambiguity.
+
+3. What is Session?  
+Server-stored data identified by a session ID, used to persist user info across pages.
+
+4. What is a Cookie?  
+Small data stored in the browser, sent with requests to remember user info like login or preferences.
+
+5. What is the importance of validation?  
+Ensures data is correct, safe, and formatted properly to prevent errors and security issues.
+
+6. What is database?  
+An organized electronic data store for efficient data management.
+
+7. What is the importance of database?  
+Enables structured storage, quick access, data integrity, security, and multi-user management.
+
+8. What is the good structure of a database?  
+Normalized tables with keys, relationships, indexes, and constraints to reduce redundancy and ensure data integrity.

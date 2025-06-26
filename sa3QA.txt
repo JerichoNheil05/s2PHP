@@ -1,0 +1,25 @@
+1. What are Super Global Variables?
+Super Global Variables are built-in variables in PHP that are always accessible, regardless of scope. They are used to access information such as form data, server information, session data, and cookies. Examples include $_GET, $_POST, $_SESSION, $_COOKIE, $_REQUEST, $_SERVER, and $_FILES.
+
+2. Differentiate $_GET, $_POST, and $_REQUEST
+- $_GET: Used to collect data sent via URL parameters in HTTP GET requests. Data is visible in the URL and has size limitations.
+- $_POST: Used to collect data sent via HTTP POST requests. Data is sent in the request body, not visible in the URL, and can handle larger amounts of data.
+- $_REQUEST: A combined array that contains data from $_GET, $_POST, and $_COOKIE. It can be used to access any of these sources but may lead to ambiguity.
+
+3. What is Session?
+A session is a way to store information (in variables) to be used across multiple pages in a web application. Sessions are stored on the server and identified by a unique session ID, usually maintained via cookies. Sessions allow user data to persist during a browsing session.
+
+4. What is a Cookie?
+A cookie is a small piece of data stored on the client’s browser. It is sent to the server with each HTTP request. Cookies are used to remember information about the user, such as login status, preferences, or tracking data.
+
+5. What is the importance of validation?
+Validation ensures that the data received from users or external sources is correct, safe, and meets the expected format or criteria. It helps prevent errors, security vulnerabilities (like SQL injection), and ensures data integrity.
+
+6. What is database?
+A database is an organized collection of data stored electronically. It allows for efficient storage, retrieval, and management of data. Databases are used to store information for applications, websites, and systems.
+
+7. What is the importance of database?
+Databases provide a structured way to store large amounts of data, enable quick access and manipulation, support data integrity and security, and allow multiple users or applications to share and manage data concurrently.
+
+8. What is the good structure of a database?
+A good database structure is normalized to reduce redundancy and improve data integrity. It includes well-defined tables with primary keys, appropriate relationships (one-to-one, one-to-many, many-to-many), indexes for performance, and clear constraints to enforce data rules.
